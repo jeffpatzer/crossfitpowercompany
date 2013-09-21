@@ -1,3 +1,4 @@
 name: Crossfit Rafdo
 markdown: redcarpet
 pygments: true
+timezone: America/San_Francisco
