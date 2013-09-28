@@ -3,11 +3,24 @@ layout: default
 title: Crossfit Power House
 ---
 
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+<div id="home" class="padded">
+  <h2>Workout of the Day</h2>
+  {% for post in site.posts limit:2 %}
+    <div class="post post-full">
+      <div class="border-bottom gap-bottom block">
+        <a href="{{ post.url }}">{{ post.title }}</a>
+        <span class="inline-block pull-right small"><em>{{ post.date | date_to_string }}</em></span>
+      </div>
+      {{post.content}}
+    </div>
+  {% endfor %}
+  {% for post in site.posts limit:5 offset:2 %}
+    <div class="post post-excerpt">
+      <div class="border-bottom gap-bottom block">
+        <a href="{{ post.url }}">{{ post.title }}</a>
+        <span class="inline-block pull-right small"><em>{{ post.date | date_to_string }}</em></span>
+      </div>
+      {{post.excerpt}}
+    </div>
+  {% endfor %}
 </div>

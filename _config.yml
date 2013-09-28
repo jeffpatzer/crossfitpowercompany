@@ -1,6 +1,9 @@
 name: Crossfit Power House
+shortname: CFPH
 markdown: redcarpet
 pygments: true
 timezone: America/San_Francisco
 url: //jpatzer.github.io/crossfitpowerhouse
 assets: /assets
+paginate: 5
+paginate_path: "blog/page:num"
