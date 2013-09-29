@@ -40,10 +40,3 @@ Owner: Rafael "Vegatron" Vega
 * Colors (Black and Red)
 * Photos of the space
 * Photos of the athletes
-
-red => black
-#d90000
-#bf0000
-#800000
-#400000
-#1a0000
