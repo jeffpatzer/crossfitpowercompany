@@ -1,6 +1,6 @@
-# Crossfit Power House
+# Crossfit Power Company
 
-Location: Great Western Power House, Oakland, Ca
+Location: Great Western Power Company, Oakland, Ca
 Owner: Rafael "Vegatron" Vega
 
 ## Site Building
@@ -41,3 +41,9 @@ Owner: Rafael "Vegatron" Vega
 * Photos of the space
 * Photos of the athletes
 
+red => black
+#d90000
+#bf0000
+#800000
+#400000
+#1a0000

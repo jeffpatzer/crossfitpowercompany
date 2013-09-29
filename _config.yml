@@ -4,6 +4,7 @@ markdown: redcarpet
 pygments: true
 timezone: America/San_Francisco
 url: //jpatzer.github.io/crossfitpowerhouse
-assets: /crossfitpowercompany/assets
-paginate: 5
+assets: crossfitpowerhouse/assets
+imageasset: crossfitpowerhouse/assets/images
+paginate: 2
 paginate_path: "blog/page:num"
