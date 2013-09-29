@@ -3,7 +3,7 @@ shortname: CFPP
 markdown: redcarpet
 pygments: true
 timezone: America/San_Francisco
-url: //jpatzer.github.io/crossfitpowerhouse
+url: //jpatzer.github.io/crossfitpowercompany
 assets: /assets
 imageasset: /assets/images
 paginate: 2
