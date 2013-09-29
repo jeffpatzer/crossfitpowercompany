@@ -1,4 +1,5 @@
 node_modules/*
 _site/*
+_includes/components
 assets/components
 .DS_store
