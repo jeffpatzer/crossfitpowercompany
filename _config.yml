@@ -8,3 +8,4 @@ assets: /crossfitpowercompany/assets
 imageasset: /crossfitpowercompany/assets/images
 paginate: 2
 paginate_path: "blog/page:num"
+prefix: /crossfitpowercompany
